@@ -32,6 +32,9 @@ $ npm install -g json-server
 
 # Run the API server
 $ json-server --watch db.json
+
+# Run the API server wth 2 seconds delay
+$ json-server --watch db.json --delay 2000
 ```
 
 ## Extras
