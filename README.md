@@ -30,3 +30,7 @@ $ npm install -g json-server
 # Run the API server
 $ json-server --watch db.json
 ```
+
+## Extras
+
+Add "Material Icon Theme" extension for good looking icons in VS Code
