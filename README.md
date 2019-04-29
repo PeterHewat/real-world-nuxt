@@ -4,7 +4,7 @@
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
@@ -20,3 +20,13 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+## Setting Up a Mock API
+
+```bash
+# install json-server
+$ npm install -g json-server
+
+# Run the API server
+$ json-server --watch db.json
+```
