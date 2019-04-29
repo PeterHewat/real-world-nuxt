@@ -18,6 +18,13 @@ export default {
         }
       ]
     }
+  },
+  asyncData({ $axios }) {
+    return $axios.get('http://localhost:3000/events').then(response => {
+      return {
+        events: response.data
+      }
+    })
   }
 }
 </script>
